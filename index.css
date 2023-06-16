@@ -1,24 +1,32 @@
+:root{
+    --variavelBackground: #242323;
+    --img-blur: 0px;
+    --img-width:100%;
+}
+
 html,body{
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-.container-img{
-    background: rgba(46, 45, 45, 0.9);
+.img-container{
+    background: var(--variavelBackground);
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: all 0.8s;
     
     
 }
-.container-img form{
+.img-container form{
     display: flex;
+    padding-bottom: 20px;
 }
 
-.container-img form div{
+.img-container form div{
     display: flex;
     align-items: center;
     padding-inline: 20px;
@@ -26,8 +34,12 @@ html,body{
 .img-wrapper{
    
     width: 800px;
+    display: flex;
+    justify-content: center;
 }
 
 img{
-    width: 100%;
+    width: var(--img-width);
+    filter: blur(var(--img-blur));
+    transition: all 0.8s;
 }
