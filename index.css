@@ -16,6 +16,12 @@ body{
     transition: all 0.8s;
 }
 
+h1{
+    font-size: 32px;
+    text-align: center;
+    padding: 26px;
+}
+
 .img-container{
     background: var(--variavelBackground);
     padding: 10px;
