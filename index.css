@@ -1,0 +1,33 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container-img{
+    background: rgba(46, 45, 45, 0.9);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.container-img form{
+    display: flex;
+}
+
+.container-img form div{
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+}
+.img-wrapper{
+   
+    width: 800px;
+}
+
+img{
+    width: 100%;
+}
